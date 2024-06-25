@@ -1,8 +1,6 @@
-"""Command-line interface."""
+"""Command-line interface code."""
 import textwrap
-
 import click
-
 from . import __version__, wikipedia
 
 
