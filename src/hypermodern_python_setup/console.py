@@ -3,7 +3,9 @@ import textwrap
 import click
 from . import __version__, wikipedia
 
-
+def do_nothing(a):
+    print(a)
+    
 @click.command()
 @click.option(
     "--language",
